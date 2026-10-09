@@ -1,4 +1,4 @@
-%% Supplementary Figure X 
+%% Supplementary Figure 9
 % ICI_tumor_control_heatmaps
 % Parameter grids
 C0_vals = logspace(-2, 0, 25);

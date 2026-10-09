@@ -755,7 +755,7 @@ theta_base = IL6DosingParameters();
 theta_base.useIDosing.val = true;
 
 % Sobol sample size
-N_tumor = 512 %2048;
+N_tumor = 2048;
 
 % Run Sobol analysis for tumor reduction
 [S_tumor, ST_tumor, paramNames] = ...
@@ -779,7 +779,7 @@ ST_L0 = zeros(nC,1);
 S_L1  = zeros(nC,1);
 ST_L1 = zeros(nC,1);
 
-N_L0L1 = 1024;
+N_L0L1 = 2048;
 
 for iC = 1:nC
 
